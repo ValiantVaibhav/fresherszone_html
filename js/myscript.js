@@ -8,7 +8,7 @@ $(document).ready(function(){
          $("#Video1").attr('src', url1);
     });
 
-alert("url1");
+
     var url2 = $("#Video2").attr('src');                /* Get iframe src attribute value i.e. YouTube video url  and store it in a variable */
 
     $("#myModal2").on('hide.bs.modal', function(){  		/* Assign empty url value to the iframe src attribute when modal hide, which stop the video playing */
@@ -18,7 +18,7 @@ alert("url1");
     $("#myModal2").on('show.bs.modal', function(){          /* Assign the initially stored url back to the iframe src attribute when modal is displayed again */
          $("#Video2").attr('src', url2);
     });
-alert("url2");
+
 
     var url3 = $("#Video3").attr('src');                /* Get iframe src attribute value i.e. YouTube video url  and store it in a variable */
 
